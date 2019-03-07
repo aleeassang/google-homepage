@@ -1,0 +1,63 @@
+/* positioning (margins / padding / display / size properties)*/
+body{
+   font-family: arial,sans-serif;
+   font-size: 15px;
+}
+/* Link styling*/
+a:link, a:visited, a:active {
+  color: #010000;
+  text-decoration: none;
+ }
+a:hover {
+  color: #888;
+  text-decoration: underline;
+  text-decoration-color: #222;
+}
+/*top browser styling*/
+div.navi{
+  position: absolute;
+  right: 0px;
+  padding: 15px;
+}
+a.navi{
+  margin-right: 15px;
+}
+button.sign_in{
+  color: #ffff;
+  background-color: #4169E1;
+  border: 1px #4169E1;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+/*Middle stuff*/
+div.search{
+text-align: center;
+}
+img.logo{
+  height: 80px;
+  width: 220px;
+  margin: 200px 40px 30px;
+}
+input.search-bar{
+  width: 500px;
+  height: 27px;
+  border-radius: 13px;
+ }
+ button.search{
+  color:
+ }
+
+/*
+.apps{
+  background-image: url("../image/google_icons.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}                              
+#searchbox_userinput{
+   border-radius:20px;
+   width: 50%;
+}
+.language{
+  color:#0000ff;
+}*/
