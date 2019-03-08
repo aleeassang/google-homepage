@@ -1,63 +1,93 @@
 /* positioning (margins / padding / display / size properties)*/
-body{
+body {
    font-family: arial,sans-serif;
    font-size: 15px;
 }
 /* Link styling*/
 a:link, a:visited, a:active {
-  color: #010000;
-  text-decoration: none;
+    color: #010000;
+    text-decoration: none;
  }
 a:hover {
-  color: #888;
-  text-decoration: underline;
-  text-decoration-color: #222;
+    color: #888;
+    text-decoration: underline;
+    text-decoration-color: #222;
 }
 /*top browser styling*/
-div.navi{
-  position: absolute;
-  right: 0px;
-  padding: 15px;
+div.navi {
+    position: absolute;
+    right: 0px;
+    padding: 15px;
 }
-a.navi{
-  margin-right: 15px;
+a {
+    margin: 0px 5px;
 }
-button.sign_in{
-  color: #ffff;
-  background-color: #4169E1;
-  border: 1px #4169E1;
-  padding: 5px 15px;
-  border-radius: 5px;
+button.sign_in {
+    color: #ffff;
+    background-color: #4169E1;
+    border: 1px #4169E1;
+    padding: 5px 15px;
+    border-radius: 5px;
+    user-select: none;
 }
-/*Middle stuff*/
-div.search{
-text-align: center;
-}
-img.logo{
-  height: 80px;
-  width: 220px;
-  margin: 200px 40px 30px;
-}
-input.search-bar{
-  width: 500px;
-  height: 27px;
-  border-radius: 13px;
- }
- button.search{
-  color:
- }
-
-/*
 .apps{
   background-image: url("../image/google_icons.png");
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
 }                              
-#searchbox_userinput{
-   border-radius:20px;
-   width: 50%;
+/*Middle stuff*/
+div.search {
+    text-align: center;
 }
-.language{
-  color:#0000ff;
-}*/
+img.logo {
+    height: 80px;
+    width: 220px;
+    margin: 200px 40px 30px;
+}
+input.search-bar {
+    width: 500px;
+    height: 27px;
+    border-radius: 20px;
+    padding: 5px;
+    color: grey;
+    user-select: none;
+}
+/*google search button styling*/
+ div.google-search {
+    margin: 20px;
+}
+.google-search button   {
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    color: #777a7e;
+    background-color: #f2f2f2;
+    border:1px solid;
+    border-color: #dcdcdc;
+    user-select: none;
+}
+.google-search button:hover {
+    border-color: #777a7e;
+    color: black;
+}
+p   {
+    font-size: 12px;
+}
+ p.a    {
+    color: #0000ff;
+ }
+/* Footer Styling*/
+footer  {
+    margin-top:  250px;
+    padding: 5px;
+    border:1px solid #dcdcdc;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-flow: space-between;
+}
+section     {
+
+}
