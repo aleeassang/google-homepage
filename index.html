@@ -2,36 +2,37 @@
 <html>
 <head>
 	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="style.css/reset.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style.css/main.css" media="all">
 	<meta charset="utf-8">
 </head>
-<header>
-	<div class = headings_navi>
+	
+<body>
+	<div class="navi">
 		<a href="#">Gmail</a>
 		<a href="#">Images</a>
-		<img class= apps src="#" href="#" alt="list of applications available through google">
-		<button type="button" class = sign_in href= "#"> Sign in</button>
+		<a href="#" class="apps" alt="Google apps"></a>
+		<button type="button" class="sign_in" href="#"> Sign in</button>
 	</div>
-</header>
-<body>
-	<div class= search>
-		<img class= logo src="image/googlelogo.png" alt="The clasic google logo">
-		<form>
-	 		<div>
-				<input type="text" name="Search">
-			</div>	
-			<div>
-				<button type="button">Google Search</button>
-				<button type="button">I'm Feeling Lucky</button>
-			</div>
-		</form>
-		<p>Google offered in :<a href="#">日本語</a></p>
+	<div class="search">
+		<div >
+			<img src="image/googlelogo.png" class="logo" alt="Google">
+		</div>
+		<div>
+			<form>
+	 			<div >
+					<input class="search-bar" type="text" name="Search" value="Search Google or Type in URL">
+				</div>	
+				<div class="google-search">
+					<button type="button">Google Search</button>
+					<button type="button">I'm Feeling Lucky</button>
+				</div>
+			</form>
+		</div>	
+		<p>Google offered in:<a class="language" href="#">日本語</a></p>
 	</div>
 </body>
 <footer>
-	<p>Japan</p>
-
-	<hr>
-
 	<section>
 		<a href="#">Advertising</a>
 		<a href="#">Business</a>
